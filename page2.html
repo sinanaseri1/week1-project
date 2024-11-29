@@ -1,53 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2 - Hobby Site</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 text-gray-900">
+  </head>
+  <body
+    class="bg-gray-100 text-gray-900 flex flex-col h-screen justify-between"
+  >
     <!-- Navbar -->
     <header class="bg-green-600 text-white p-4">
-        <nav class="container mx-auto flex justify-between">
-            <h1 class="text-xl font-bold">Hobby Site</h1>
-            <ul class="flex space-x-4">
-                <li><a href="index.html" class="hover:underline">Home</a></li>
-                <li><a href="page1.html" class="hover:underline">Page 1</a></li>
-                <li><a href="page2.html" class="hover:underline">Page 2</a></li>
-                <li><a href="page3.html" class="hover:underline">Page 3</a></li>
-            </ul>
-        </nav>
+      <nav class="container mx-auto flex justify-between">
+        <h1 class="text-xl font-bold">Hobby Site</h1>
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="hover:underline">Home</a></li>
+          <li><a href="page1.html" class="hover:underline">About</a></li>
+          <li><a href="page2.html" class="hover:underline">Equipment</a></li>
+          <li><a href="page3.html" class="hover:underline">Benefits</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto p-4">
-        <!-- Section Heading -->
-        <section class="my-8">
-            <h2 class="text-3xl font-bold mb-4">Page 2: My Hobby Tools</h2>
-            <p class="text-lg text-gray-700">Explore the tools and materials I use for my hobby.</p>
-        </section>
+    <main class="container mx-auto p-4 flex-grow">
+      <!-- Section Heading -->
+      <section class="my-8">
+        <h2 class="text-3xl font-bold mb-4">Equipment for Table Tennis</h2>
+        <p class="text-lg text-gray-700">
+          Whether you're setting up for professional play or just for fun,
+          here's what you'll need to get started:
+        </p>
+      </section>
 
-        <!-- Card Layout Section -->
-        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
-            <div class="bg-white shadow-lg rounded-lg p-4">
-                <h3 class="text-xl font-bold mb-2">Tool 1</h3>
-                <p class="text-gray-600">Description of the first tool.</p>
-            </div>
-            <div class="bg-white shadow-lg rounded-lg p-4">
-                <h3 class="text-xl font-bold mb-2">Tool 2</h3>
-                <p class="text-gray-600">Description of the second tool.</p>
-            </div>
-            <div class="bg-white shadow-lg rounded-lg p-4">
-                <h3 class="text-xl font-bold mb-2">Tool 3</h3>
-                <p class="text-gray-600">Description of the third tool.</p>
-            </div>
-        </section>
+      <!-- Equipment List Section -->
+      <section class="my-8">
+        <h3 class="text-2xl font-semibold mb-4">Official Equipment:</h3>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Table:</strong> A standard table tennis table is 9 feet
+            long, 5 feet wide, and 30 inches high, with a net dividing it in the
+            middle.
+          </li>
+          <li>
+            <strong>Racket:</strong> A high-quality paddle with a rubber surface
+            for spin and control.
+          </li>
+          <li>
+            <strong>Balls:</strong> Official table tennis balls are 40mm in
+            diameter and made of celluloid or plastic.
+          </li>
+          <li>
+            <strong>Net:</strong> A regulation net is 6 inches high and spans
+            the width of the table.
+          </li>
+        </ul>
+
+        <h3 class="text-2xl font-semibold mt-8 mb-4">Casual Setup:</h3>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>
+            <strong>Dining Table:</strong> You can use a flat dining table as a
+            substitute for a regulation table.
+          </li>
+          <li>
+            <strong>Clip-On Net:</strong> Easily attachable nets can transform
+            any table into a table tennis setup.
+          </li>
+          <li>
+            <strong>Basic Rackets and Balls:</strong> Affordable beginner kits
+            are perfect for casual play.
+          </li>
+        </ul>
+      </section>
     </main>
-
     <!-- Footer -->
     <footer class="bg-gray-800 text-white p-4 text-center">
-        <p>&copy; 2024 Hobby Site. All Rights Reserved.</p>
+      <p>&copy; 2024 Hobby Site. All Rights Reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
